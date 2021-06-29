@@ -40,6 +40,62 @@ nav a{
 	text-align: center;
 	padding: 20px;
 }
+
+/*produto*/
+.principal-produtos h2{
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 2%;
+}
+.principal-produtos{
+	
+	width: 940px;
+	margin:0 auto;
+
+	/* padding:50px 50px; */
+}
+
+.principal-produtos li {
+	display: inline-block;	
+	text-align: center;
+	width: 40%;
+	vertical-align: top;
+	margin:10px 45px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 4px solid black;
+	border-radius: 50px;
+	
+}
+.principal-produtos li:hover {
+	border-color: gray;
+	background-color: beige;
+	transition: 1s ;
+	cursor: pointer;
+
+}
+
+.principal-produtos li:hover h2{
+    font-size: 34px;
+}
+
+.principal-produtos li:active{
+    border-color: #088c19;
+}
+
+.principal-produtos-preco{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 10px;
+}
+.principal-produtos img{
+	width:  100%;
+	height: 250px;
+	border-radius: 10px;
+	object-fit: fill;
+}
+
+
 /*RODAPÉ */
 
 footer{
