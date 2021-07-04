@@ -34,6 +34,12 @@ nav a{
 	margin: 0 auto;
 }
 
+main{
+	width: 940px;
+	text-align: center;
+	margin: 10px auto;
+
+}
 .principal{
 	font-size: 2em;
 	font-weight: bold;
@@ -95,6 +101,29 @@ nav a{
 	object-fit: fill;
 }
 
+.principal-sobre{
+	width: 940px;
+	
+}
+.principal-sobre-quemsomos{
+	box-shadow: 5px 5px 10px -3px black;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding:10px;
+	background-color: gray	;
+	color: rgba(255, 255, 255, 0.685);
+	
+}
+
+.principal-sobre-historia{
+	padding: 20px;
+	margin: 10px auto;
+	font-size: 16px;
+	background-color: rgba(197, 192, 192, 0.993);
+	text-align: justify;
+	color: rgba(29, 3, 3, 0.945);
+}
 
 /*RODAPÉ */
 
