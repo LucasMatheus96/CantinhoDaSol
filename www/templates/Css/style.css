@@ -125,6 +125,20 @@ main{
 	color: rgba(29, 3, 3, 0.945);
 }
 
+
+.principal-contato-titulo{
+
+	font-size:  22px;
+	font-weight: bold;
+}
+
+.principal-contato-descricao{
+	margin: 10px auto;
+}
+.principal-contato-form{
+	display: inline-block;
+	width: 50%;
+}
 /*RODAPÉ */
 
 footer{
