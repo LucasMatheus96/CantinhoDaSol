@@ -35,9 +35,10 @@ nav a{
 }
 
 main{
-	width: 940px;
+	width: auto;
 	text-align: center;
 	margin: 10px auto;
+	
 
 }
 .principal{
@@ -103,6 +104,9 @@ main{
 
 .principal-sobre{
 	width: 940px;
+	display:inline-block;
+	
+	text-align: center;
 	
 }
 .principal-sobre-quemsomos{
@@ -125,6 +129,10 @@ main{
 	color: rgba(29, 3, 3, 0.945);
 }
 
+.principal-contato{
+	background-color: #F7F4F4;
+
+}
 
 .principal-contato-titulo{
 
@@ -134,10 +142,55 @@ main{
 
 .principal-contato-descricao{
 	margin: 10px auto;
+
 }
+
+.principal-contato2{
+	background-color: #F7F4F4;
+	text-align: center;		
+	
+}
+
 .principal-contato-form{
-	display: inline-block;
-	width: 50%;
+	
+	display :block;
+	width: 80%;
+	height: 100%;
+	border-radius: 8px;
+	border: 1px solid gray;
+	position: relative;
+	text-align:center;
+	padding: 20px;
+	line-height: 1;
+	margin: 10px auto;	
+	
+
+}
+
+.contato-campo{
+	margin: .8em auto;
+  max-width: 600px;
+  padding: 5px;
+  position: relative;
+}
+.contato-campo label{
+	display: block;
+	width: auto;
+	text-align: left;
+	position: relative;
+	padding: 0.5%;
+	
+}
+
+.contato-campo input{
+	font-size: 1em;
+	padding: .5em;
+	width: 600px;
+	min-height: 10px;
+	border-radius: 8px;
+	border:2px solid #ccc;
+	outline: 0;
+	
 }
 /*RODAPÉ */
 
