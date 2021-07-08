@@ -173,16 +173,16 @@ main{
   padding: 5px;
   position: relative;
 }
-.contato-campo label{
+.contato-campo label, .contato-campo textarea{
 	display: block;
-	width: auto;
+	width: 100%;
 	text-align: left;
 	position: relative;
 	padding: 0.5%;
-	
-}
+	}
 
-.contato-campo input{
+.contato-campo input,
+.contato-campo textarea{
 	font-size: 1em;
 	padding: .5em;
 	width: 600px;
@@ -191,6 +191,27 @@ main{
 	border:2px solid #ccc;
 	outline: 0;
 	
+}
+
+.contato-campo input:focus{
+	border: 2px solid black
+}
+
+
+.contato-campo-botao{
+	width: 400px;
+	height: 60px;
+	border:2px solid #ccc;
+	border-radius: 8px;
+	background: transparent;
+}
+
+.contato-campo-botao:hover	{
+	
+	color: white;
+	cursor: pointer;
+	background-color:gray;
+	transition: 3ms;
 }
 /*RODAPÉ */
 
