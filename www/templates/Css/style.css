@@ -216,6 +216,7 @@ main{
 /*RODAPÉ */
 
 footer{
+	display: block;
 	background-color: black;
 	text-align: center;
 	width: 100%;
@@ -227,3 +228,11 @@ footer p {
 	color: white;
 }
 
+.rodape-social{
+	position: absolute;
+	display: inline-block;
+	padding: 10px;
+	bottom: -700px;
+    right: 450px;
+	
+}
